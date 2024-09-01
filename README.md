@@ -1,6 +1,6 @@
 # RecipeApps
 
-RecipeApps is an application for getting the latest and most up-to-date recipe which is an implementation of Api [https://newsapi.org/](https://www.themealdb.com/api.php?ref=apilist.fun)
+RecipeApps is an application for getting the latest and most up-to-date recipe which is an implementation of Api https://www.themealdb.com/api.php?ref=apilist.fun
 
 # some of the features include
 
