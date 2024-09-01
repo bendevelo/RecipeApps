@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:padding="28dp"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salad with Egg and Apple dan Blackberry Crumble"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="19dp"
+            />
+        <TextView
+            android:id="@+id/kategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category : Dezzert"
+            android:layout_marginBottom="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:src="@drawable/sample"
+            android:elevation="2dp"
+
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/bgreceipe"
+            android:layout_marginTop="20dp"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Ingredients : "
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/ing1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Cayenne Pepper  (1/2 Kilograms)"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/ing9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Instructions : "
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exampleinstructions"
+            android:layout_marginBottom="35dp"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
